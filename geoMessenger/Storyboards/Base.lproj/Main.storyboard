@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="MapViewController" customModule="geoMessenger" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="R8K-UV-Pyi">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="R8K-UV-Pyi" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="0xb-Gw-7oW"/>
+                            <constraint firstItem="R8K-UV-Pyi" firstAttribute="bottom" secondItem="PQr-Ze-W5v" secondAttribute="bottom" id="KQz-yz-yg5"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="R8K-UV-Pyi" secondAttribute="trailing" id="iXb-yn-f1O"/>
+                            <constraint firstItem="R8K-UV-Pyi" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="vYk-By-YRJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="mapView" destination="R8K-UV-Pyi" id="fPV-PQ-dVb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+        </scene>
+        <!--Camera-->
+        <scene sceneID="1ja-Vm-TpE">
+            <objects>
+                <viewController storyboardIdentifier="camera" id="r2A-HF-Y8O" customClass="CameraViewController" customModule="geoMessenger" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ycw-2I-ATx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jK3-I6-IRL">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lhd-7E-YXf">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="Rcb-do-Gu0">
+                                        <barButtonItem key="rightBarButtonItem" title="Save Photo" id="3R5-kU-imy">
+                                            <connections>
+                                                <action selector="btnSavePhoto_Touch:" destination="r2A-HF-Y8O" id="xzz-aN-x3Y"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="574-Mu-cRK" customClass="CustomButton" customModule="geoMessenger" customModuleProvider="target">
+                                <rect key="frame" x="16" y="572" width="89" height="30"/>
+                                <state key="normal" title="Take a Photo"/>
+                                <connections>
+                                    <action selector="btnTakePicture_TouchUpInside:" destination="r2A-HF-Y8O" eventType="touchUpInside" id="aLN-Vf-tE1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1i-Ox-O5x" customClass="CustomButton" customModule="geoMessenger" customModuleProvider="target">
+                                <rect key="frame" x="271" y="572" width="88" height="30"/>
+                                <state key="normal" title="Select Photo"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnSelectPhoto_TouchUpInside:" destination="r2A-HF-Y8O" eventType="touchUpInside" id="9xH-OX-T8Y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Y64-v8-U5E" firstAttribute="bottom" secondItem="574-Mu-cRK" secondAttribute="bottom" constant="16" id="B7j-Pe-dkL"/>
+                            <constraint firstItem="Lhd-7E-YXf" firstAttribute="leading" secondItem="Y64-v8-U5E" secondAttribute="leading" id="JD6-Du-XYM"/>
+                            <constraint firstItem="Lhd-7E-YXf" firstAttribute="trailing" secondItem="Y64-v8-U5E" secondAttribute="trailing" id="Lly-ew-9X4"/>
+                            <constraint firstItem="Y64-v8-U5E" firstAttribute="trailing" secondItem="jK3-I6-IRL" secondAttribute="trailing" id="bqC-pD-VFt"/>
+                            <constraint firstItem="jK3-I6-IRL" firstAttribute="top" secondItem="Lhd-7E-YXf" secondAttribute="bottom" id="fqU-9R-ejp"/>
+                            <constraint firstItem="Y64-v8-U5E" firstAttribute="trailing" secondItem="w1i-Ox-O5x" secondAttribute="trailing" constant="16" id="iB6-q9-Etq"/>
+                            <constraint firstItem="Lhd-7E-YXf" firstAttribute="top" secondItem="Y64-v8-U5E" secondAttribute="top" id="kST-Ra-Xbi"/>
+                            <constraint firstItem="jK3-I6-IRL" firstAttribute="leading" secondItem="Y64-v8-U5E" secondAttribute="leading" id="kSr-gx-Vk6"/>
+                            <constraint firstItem="Y64-v8-U5E" firstAttribute="bottom" secondItem="jK3-I6-IRL" secondAttribute="bottom" id="moH-dd-col"/>
+                            <constraint firstItem="574-Mu-cRK" firstAttribute="leading" secondItem="Y64-v8-U5E" secondAttribute="leading" constant="16" id="t1j-uW-xX0"/>
+                            <constraint firstItem="Y64-v8-U5E" firstAttribute="bottom" secondItem="w1i-Ox-O5x" secondAttribute="bottom" constant="16" id="tSc-N1-Hv1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Y64-v8-U5E"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Camera" image="ic_extended_circles_black_16.png" id="gyX-Dc-8Q7"/>
+                    <connections>
+                        <outlet property="imgPhoto" destination="jK3-I6-IRL" id="K6g-IF-OgC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PPc-Um-zyg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1466" y="0.0"/>
+        </scene>
+        <!--Messages-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="geoMessenger" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uTH-a2-02p">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="Mwx-YR-eUF">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="SUP-9w-HNY">
+                                            <color key="tintColor" red="0.29625967919263868" green="0.51870179762821356" blue="0.57814453124999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <segue destination="SDW-FX-9JV" kind="show" id="0O7-Md-cwO"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Messages" image="second" badgeValue="0" id="cPa-gy-q4n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="359.37031484257875"/>
+        </scene>
+        <!--TablesTabBarViewController-->
+        <scene sceneID="RrA-mD-LoK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tables" referencedIdentifier="TablesTabBarViewController" id="SDW-FX-9JV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dhm-RT-q1v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1273" y="446"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="r2A-HF-Y8O" kind="relationship" relationship="viewControllers" id="Fo0-Jk-IL0"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+        <image name="ic_extended_circles_black_16.png" width="16" height="16"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>

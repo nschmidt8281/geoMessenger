@@ -7,23 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99F91EE42D9635561E87888B /* libPods-geoMessenger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D52FFF889067CC8BA047F9 /* libPods-geoMessenger.a */; };
+		CA48C7631FA7C66400E522D5 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48C7621FA7C66400E522D5 /* CustomButton.swift */; };
+		CA48C7701FA7C85B00E522D5 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48C7641FA7C85A00E522D5 /* IsaoTextField.swift */; };
+		CA48C7711FA7C85B00E522D5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA48C7651FA7C85A00E522D5 /* Info.plist */; };
+		CA48C7721FA7C85B00E522D5 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48C7661FA7C85A00E522D5 /* MinoruTextField.swift */; };
+		CA48C7731FA7C85B00E522D5 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48C7681FA7C85A00E522D5 /* MadokaTextField.swift */; };
+		CA48C7741FA7C85B00E522D5 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48C7691FA7C85A00E522D5 /* JiroTextField.swift */; };
+		CA48C7751FA7C85B00E522D5 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48C76A1FA7C85B00E522D5 /* AkiraTextField.swift */; };
+		CA48C7761FA7C85B00E522D5 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48C76B1FA7C85B00E522D5 /* TextFieldEffects.swift */; };
+		CA48C7771FA7C85B00E522D5 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48C76C1FA7C85B00E522D5 /* YoshikoTextField.swift */; };
+		CA48C7781FA7C85B00E522D5 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48C76D1FA7C85B00E522D5 /* YokoTextField.swift */; };
+		CA48C7791FA7C85B00E522D5 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48C76E1FA7C85B00E522D5 /* HoshiTextField.swift */; };
+		CA48C77A1FA7C85B00E522D5 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48C76F1FA7C85B00E522D5 /* KaedeTextField.swift */; };
+		CA48C77C1FA7CA0700E522D5 /* Tables.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA48C77B1FA7CA0700E522D5 /* Tables.storyboard */; };
+		CA48C77E1FA7CAF500E522D5 /* TablesTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48C77D1FA7CAF500E522D5 /* TablesTabBarViewController.swift */; };
+		CA48C7801FA7CC2900E522D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48C77F1FA7CC2900E522D5 /* ViewController.swift */; };
+		CA48C7821FA7CC3700E522D5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48C7811FA7CC3700E522D5 /* TableViewController.swift */; };
+		CA50AC5F1FA8C5DB00EF6799 /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA50AC5E1FA8C5DB00EF6799 /* UserItem.swift */; };
+		CA8629611FA7989D00722FDD /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8629601FA7989D00722FDD /* CameraViewController.swift */; };
+		CA8629631FA7996100722FDD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8629621FA7996100722FDD /* Message.swift */; };
+		CA8629671FA79A5400722FDD /* MapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8629661FA79A5400722FDD /* MapViewExtension.swift */; };
 		CA8A32001FA7909C0023FC60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8A31FF1FA7909C0023FC60 /* AppDelegate.swift */; };
-		CA8A32021FA7909C0023FC60 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8A32011FA7909C0023FC60 /* FirstViewController.swift */; };
+		CA8A32021FA7909C0023FC60 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8A32011FA7909C0023FC60 /* MapViewController.swift */; };
 		CA8A32041FA7909C0023FC60 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8A32031FA7909C0023FC60 /* SecondViewController.swift */; };
 		CA8A32071FA7909C0023FC60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8A32051FA7909C0023FC60 /* Main.storyboard */; };
 		CA8A32091FA7909C0023FC60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8A32081FA7909C0023FC60 /* Assets.xcassets */; };
 		CA8A320C1FA7909C0023FC60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8A320A1FA7909C0023FC60 /* LaunchScreen.storyboard */; };
+		CA8A32181FA7949C0023FC60 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA8A32171FA7949C0023FC60 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F757DE5EDB35C989A898CCF /* Pods-geoMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoMessenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-geoMessenger/Pods-geoMessenger.release.xcconfig"; sourceTree = "<group>"; };
+		94D52FFF889067CC8BA047F9 /* libPods-geoMessenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-geoMessenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA48C7621FA7C66400E522D5 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		CA48C7641FA7C85A00E522D5 /* IsaoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsaoTextField.swift; sourceTree = "<group>"; };
+		CA48C7651FA7C85A00E522D5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA48C7661FA7C85A00E522D5 /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinoruTextField.swift; sourceTree = "<group>"; };
+		CA48C7671FA7C85A00E522D5 /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
+		CA48C7681FA7C85A00E522D5 /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadokaTextField.swift; sourceTree = "<group>"; };
+		CA48C7691FA7C85A00E522D5 /* JiroTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JiroTextField.swift; sourceTree = "<group>"; };
+		CA48C76A1FA7C85B00E522D5 /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkiraTextField.swift; sourceTree = "<group>"; };
+		CA48C76B1FA7C85B00E522D5 /* TextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		CA48C76C1FA7C85B00E522D5 /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
+		CA48C76D1FA7C85B00E522D5 /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YokoTextField.swift; sourceTree = "<group>"; };
+		CA48C76E1FA7C85B00E522D5 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		CA48C76F1FA7C85B00E522D5 /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaedeTextField.swift; sourceTree = "<group>"; };
+		CA48C77B1FA7CA0700E522D5 /* Tables.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tables.storyboard; sourceTree = "<group>"; };
+		CA48C77D1FA7CAF500E522D5 /* TablesTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablesTabBarViewController.swift; sourceTree = "<group>"; };
+		CA48C77F1FA7CC2900E522D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA48C7811FA7CC3700E522D5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CA50AC5E1FA8C5DB00EF6799 /* UserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
+		CA8629601FA7989D00722FDD /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		CA8629621FA7996100722FDD /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		CA8629661FA79A5400722FDD /* MapViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewExtension.swift; sourceTree = "<group>"; };
 		CA8A31FC1FA7909C0023FC60 /* geoMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geoMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8A31FF1FA7909C0023FC60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA8A32011FA7909C0023FC60 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CA8A32011FA7909C0023FC60 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		CA8A32031FA7909C0023FC60 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CA8A32061FA7909C0023FC60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA8A32081FA7909C0023FC60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA8A320B1FA7909C0023FC60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA8A320D1FA7909C0023FC60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8A32171FA7949C0023FC60 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE23890FEC72EF9F02C20CA8 /* Pods-geoMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoMessenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-geoMessenger/Pods-geoMessenger.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +78,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99F91EE42D9635561E87888B /* libPods-geoMessenger.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A66E8CA5031E3046E98A254 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE23890FEC72EF9F02C20CA8 /* Pods-geoMessenger.debug.xcconfig */,
+				3F757DE5EDB35C989A898CCF /* Pods-geoMessenger.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B86784A50792C201423B7CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94D52FFF889067CC8BA047F9 /* libPods-geoMessenger.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA8629651FA799DE00722FDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA50AC5E1FA8C5DB00EF6799 /* UserItem.swift */,
+				CA8629621FA7996100722FDD /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CA8629681FA7A5FD00722FDD /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				CA48C76A1FA7C85B00E522D5 /* AkiraTextField.swift */,
+				CA48C76E1FA7C85B00E522D5 /* HoshiTextField.swift */,
+				CA48C7651FA7C85A00E522D5 /* Info.plist */,
+				CA48C7641FA7C85A00E522D5 /* IsaoTextField.swift */,
+				CA48C7691FA7C85A00E522D5 /* JiroTextField.swift */,
+				CA48C76F1FA7C85B00E522D5 /* KaedeTextField.swift */,
+				CA48C7681FA7C85A00E522D5 /* MadokaTextField.swift */,
+				CA48C7661FA7C85A00E522D5 /* MinoruTextField.swift */,
+				CA48C7671FA7C85A00E522D5 /* TextFieldEffects.h */,
+				CA48C76B1FA7C85B00E522D5 /* TextFieldEffects.swift */,
+				CA48C76D1FA7C85B00E522D5 /* YokoTextField.swift */,
+				CA48C76C1FA7C85B00E522D5 /* YoshikoTextField.swift */,
+				CA48C7621FA7C66400E522D5 /* CustomButton.swift */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
 		CA8A31F31FA7909C0023FC60 = {
 			isa = PBXGroup;
 			children = (
 				CA8A31FE1FA7909C0023FC60 /* geoMessenger */,
 				CA8A31FD1FA7909C0023FC60 /* Products */,
+				7A66E8CA5031E3046E98A254 /* Pods */,
+				8B86784A50792C201423B7CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +152,40 @@
 		CA8A31FE1FA7909C0023FC60 /* geoMessenger */ = {
 			isa = PBXGroup;
 			children = (
-				CA8A31FF1FA7909C0023FC60 /* AppDelegate.swift */,
-				CA8A32011FA7909C0023FC60 /* FirstViewController.swift */,
-				CA8A32031FA7909C0023FC60 /* SecondViewController.swift */,
-				CA8A32051FA7909C0023FC60 /* Main.storyboard */,
+				CA8A32151FA790C40023FC60 /* Controllers */,
+				CA8629681FA7A5FD00722FDD /* CustomControls */,
+				CA8629651FA799DE00722FDD /* Models */,
+				CA8A32161FA790CF0023FC60 /* Storyboards */,
 				CA8A32081FA7909C0023FC60 /* Assets.xcassets */,
-				CA8A320A1FA7909C0023FC60 /* LaunchScreen.storyboard */,
 				CA8A320D1FA7909C0023FC60 /* Info.plist */,
+				CA8A32171FA7949C0023FC60 /* GoogleService-Info.plist */,
 			);
 			path = geoMessenger;
+			sourceTree = "<group>";
+		};
+		CA8A32151FA790C40023FC60 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA8A31FF1FA7909C0023FC60 /* AppDelegate.swift */,
+				CA8A32011FA7909C0023FC60 /* MapViewController.swift */,
+				CA8629661FA79A5400722FDD /* MapViewExtension.swift */,
+				CA8A32031FA7909C0023FC60 /* SecondViewController.swift */,
+				CA8629601FA7989D00722FDD /* CameraViewController.swift */,
+				CA48C77F1FA7CC2900E522D5 /* ViewController.swift */,
+				CA48C77D1FA7CAF500E522D5 /* TablesTabBarViewController.swift */,
+				CA48C7811FA7CC3700E522D5 /* TableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CA8A32161FA790CF0023FC60 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CA8A32051FA7909C0023FC60 /* Main.storyboard */,
+				CA48C77B1FA7CA0700E522D5 /* Tables.storyboard */,
+				CA8A320A1FA7909C0023FC60 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA8A32101FA7909C0023FC60 /* Build configuration list for PBXNativeTarget "geoMessenger" */;
 			buildPhases = (
+				92E91C8F94A6EE3D8C2B585F /* [CP] Check Pods Manifest.lock */,
 				CA8A31F81FA7909C0023FC60 /* Sources */,
 				CA8A31F91FA7909C0023FC60 /* Frameworks */,
 				CA8A31FA1FA7909C0023FC60 /* Resources */,
+				03E6B3F5F3D4B8D2BDA8F936 /* [CP] Embed Pods Frameworks */,
+				6FCE7EED9A7BDEB0A75DD0DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,21 +251,99 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA8A320C1FA7909C0023FC60 /* LaunchScreen.storyboard in Resources */,
+				CA48C77C1FA7CA0700E522D5 /* Tables.storyboard in Resources */,
+				CA8A32181FA7949C0023FC60 /* GoogleService-Info.plist in Resources */,
 				CA8A32091FA7909C0023FC60 /* Assets.xcassets in Resources */,
+				CA48C7711FA7C85B00E522D5 /* Info.plist in Resources */,
 				CA8A32071FA7909C0023FC60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03E6B3F5F3D4B8D2BDA8F936 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geoMessenger/Pods-geoMessenger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FCE7EED9A7BDEB0A75DD0DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-geoMessenger/Pods-geoMessenger-resources.sh",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GINInviteResources.bundle",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GPPACLPickerResources.bundle",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geoMessenger/Pods-geoMessenger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92E91C8F94A6EE3D8C2B585F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-geoMessenger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA8A31F81FA7909C0023FC60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA48C7771FA7C85B00E522D5 /* YoshikoTextField.swift in Sources */,
+				CA48C7801FA7CC2900E522D5 /* ViewController.swift in Sources */,
+				CA48C7761FA7C85B00E522D5 /* TextFieldEffects.swift in Sources */,
+				CA48C7821FA7CC3700E522D5 /* TableViewController.swift in Sources */,
+				CA48C77E1FA7CAF500E522D5 /* TablesTabBarViewController.swift in Sources */,
+				CA48C7751FA7C85B00E522D5 /* AkiraTextField.swift in Sources */,
+				CA48C77A1FA7C85B00E522D5 /* KaedeTextField.swift in Sources */,
+				CA48C7791FA7C85B00E522D5 /* HoshiTextField.swift in Sources */,
+				CA48C7731FA7C85B00E522D5 /* MadokaTextField.swift in Sources */,
 				CA8A32041FA7909C0023FC60 /* SecondViewController.swift in Sources */,
+				CA8629671FA79A5400722FDD /* MapViewExtension.swift in Sources */,
+				CA50AC5F1FA8C5DB00EF6799 /* UserItem.swift in Sources */,
+				CA48C7721FA7C85B00E522D5 /* MinoruTextField.swift in Sources */,
+				CA8629611FA7989D00722FDD /* CameraViewController.swift in Sources */,
+				CA48C7741FA7C85B00E522D5 /* JiroTextField.swift in Sources */,
+				CA48C7701FA7C85B00E522D5 /* IsaoTextField.swift in Sources */,
+				CA8629631FA7996100722FDD /* Message.swift in Sources */,
+				CA48C7781FA7C85B00E522D5 /* YokoTextField.swift in Sources */,
+				CA48C7631FA7C66400E522D5 /* CustomButton.swift in Sources */,
 				CA8A32001FA7909C0023FC60 /* AppDelegate.swift in Sources */,
-				CA8A32021FA7909C0023FC60 /* FirstViewController.swift in Sources */,
+				CA8A32021FA7909C0023FC60 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +478,7 @@
 		};
 		CA8A32111FA7909C0023FC60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE23890FEC72EF9F02C20CA8 /* Pods-geoMessenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +494,7 @@
 		};
 		CA8A32121FA7909C0023FC60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F757DE5EDB35C989A898CCF /* Pods-geoMessenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
