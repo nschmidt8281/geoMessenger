@@ -80,8 +80,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
                     return
                 }
         }
-        
-        imgPhoto.image = nil
+
         
         let ac = UIAlertController(title: "Photo Saved!", message:"The photo was saved successfully!", preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "OK", style: .default))
