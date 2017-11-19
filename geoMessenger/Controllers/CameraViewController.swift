@@ -93,7 +93,8 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureStorage()
+        
+    Storage()
         // Do any additional setup after loading the view.
     }
 
